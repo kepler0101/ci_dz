@@ -1,7 +1,7 @@
 from f1 import sum2n
 
 def test1():
-    test = sum2n(1,2)
+    test = sum2n(3,2)
     if test == 2:
         print('test passed')
     else:
@@ -13,5 +13,5 @@ def test2():
         print('test failed')
     else:
         print('test passed')
-
+test1()
 test2()
